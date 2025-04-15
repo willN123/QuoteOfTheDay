@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <div class="quote-box">
-            <h1>Quote of the Day</h1>
+            <h1 id="quote-title">Quote of the Day</h1>
             <div class="quote-content">
                 <blockquote id="quote-text"></blockquote>
                 <p id="quote-author"></p>
@@ -17,6 +17,12 @@
             <div class="quote-footer">
                 <p class="next-quote-text">Next quote in:</p>
                 <p id="time-until-next"></p>
+                <div class="button-container">
+                    <button id="random-quote-btn">Get Random Quote</button>
+                    <button id="new-random-btn" style="display: none;">New Random Quote</button>
+                    <button id="return-to-daily-btn" style="display: none;">Return to Quote of the Day</button>
+                    <button id="copy-quote-btn">Copy Quote</button>
+                </div>
             </div>
         </div>
     </div>
